@@ -12,7 +12,7 @@ export const useForm = ( initialForm = {} ) => {
     }
 
     const onResetForm = () => {
-            ( initialForm );
+        ( initialForm );
     }
 
     return {
